@@ -11,6 +11,42 @@ body {
     padding: 0;
 }
 
+/**Schriften**/
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	color:#00b8ff;
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.7em;
+    word-spacing: 0.12em;
+}
+
+li {
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+/**Schriften ende**/
+
+
+/**Linie_Titel**/
+
+#line { 
+color:#00b8ff; 
+size:1px; 
+width:75%;
+z-index: -1;
+} 
+
+/**Linie_Titel_ende**/
+
 main {
     display: block;
 }
@@ -40,6 +76,7 @@ header {
     position: fixed;
     box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.2);
     overflow: hidden;
+    z-index: 1;
 }
 
 /**Menue-inner**/
@@ -62,4 +99,17 @@ header {
 
 #content-inner {
     margin: 10px 50px 50px 50px;
+}
+
+
+/**footer**/
+
+footer {
+    width: 75%;
+    height: 50px;
+    position:fixed;
+    left: 25%;
+    bottom: 0;
+    background-color:  #FFFFFF;
+    z-index: 0;
 }
