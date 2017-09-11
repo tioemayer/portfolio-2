@@ -27,6 +27,8 @@ header {
     height: 200px;
     overflow: hidden;
     margin-bottom: 0px;
+    z-index: -1;
+    position: relative;
 }
 
 /**Menue Links **/
@@ -34,8 +36,10 @@ header {
 #left-row {
     width: 25%;
     height: 100vh;
-    background-color: ghostwhite;
+    background-color: #FFFFFF;
     position: fixed;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
 }
 
 /**Menue-inner**/
