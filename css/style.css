@@ -81,6 +81,22 @@ header {
 
 /**Menue-inner**/
 
+a:link    {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:focus   {
+    text-decoration: none;
+}
+a:hover   {
+    text-decoration: none;
+}
+a:active  {
+    text-decoration: none;
+}
+
 #left-row-inner{
     margin: 10px 50px 50px 50px;
 }
