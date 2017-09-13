@@ -39,7 +39,7 @@ li {
 /**Linie_Titel**/
 
 #line { 
-color:#00b8ff; 
+color:#808080; 
 size:1px; 
 width:75%;
 z-index: -1;
@@ -82,18 +82,23 @@ header {
 /**Menue-inner**/
 
 a:link    {
+    color: #808080;
     text-decoration: none;
 }
 a:visited {
+    color: #808080;
     text-decoration: none;
 }
 a:focus   {
+    color: #808080;
     text-decoration: none;
 }
 a:hover   {
+    color: #00b8ff;
     text-decoration: none;
 }
 a:active  {
+    color: #808080;
     text-decoration: none;
 }
 
@@ -121,6 +126,7 @@ a:active  {
 /**footer**/
 
 footer {
+    color: #808080;
     width: 75%;
     height: 50px;
     position:fixed;
