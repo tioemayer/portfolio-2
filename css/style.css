@@ -142,3 +142,13 @@ footer_inner {
     margin: 10px 50px 50px 50px;
     position:fixed;
 }
+
+/** Bilder nebeneinander **/
+
+.img1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 15px;
+
+}
