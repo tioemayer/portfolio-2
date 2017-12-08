@@ -3,3 +3,14 @@
 		left: 300px ;
     }
 }
+
+@media screen and (max-width: 760px) {
+	#left-row {
+		left: -300px;
+    }
+    
+    #content {
+        left: 0px;
+        width: 100%;
+    }
+}
