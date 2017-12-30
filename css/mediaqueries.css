@@ -14,3 +14,16 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+	#content-inner {
+		margin: 10px 180px 50px 50px;
+    }
+    }
+
+
+@media screen and (max-width: 760px) {
+	#content-inner {
+		margin: 10px 50px 50px 50px;
+    }
+    }
