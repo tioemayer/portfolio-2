@@ -97,7 +97,6 @@ header {
     background-color: #FFFFFF;
     position: fixed;
     left: 0px;
-    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.2);
     overflow: hidden;
     z-index: 1;
     -webkit-transition: 800ms, opacity 800ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Safari 3.1 to 6.0, Chrome 4.0 to 26.0 */
@@ -123,7 +122,6 @@ header {
     height: 100vh;
     background-color: #FFFFFF;
     position: fixed;
-    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.2);
     overflow: hidden;
     z-index: 1;
 }
