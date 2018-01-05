@@ -128,6 +128,8 @@ header {
 
 /**Menue-inner**/
 
+
+
 a:link    {
     color: #808080;
     text-decoration: none;
@@ -204,4 +206,57 @@ footer_inner {
     float: left;
     margin-bottom: 15px;
 
+}
+
+.img2 {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 15px;
+
+}
+/** welecome**/
+
+.introduction {
+    height:100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    }
+    
+    .grid-1-2 {
+        height: 80vh;
+        width: 50%;
+        float: left;
+        text-align: center
+        }
+
+ .titel {
+        height: 20vh;
+        margin: 10px 100px 50px 50px;
+        }
+
+.color-1 {
+    background-color: #00b8ff;
+    }
+
+.color-2 {
+   background-color: #808080;
+    }
+
+
+/**Link**/
+
+a.negativ {
+    font-size: 1.6em;
+    color: #000000;
+    text-decoration: none;
+}
+
+a.negativ:hover {
+    font-size: 1.6em;
+    color: #ffffff !important;
 }
